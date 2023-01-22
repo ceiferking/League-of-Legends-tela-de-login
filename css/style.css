@@ -1,0 +1,90 @@
+body{
+}
+
+main{
+    display: flex;
+}
+.man{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+}
+
+.man h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: small;
+    margin: 2em;
+}
+
+.login_logo{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 10%;
+    margin: 5% 35%;
+}
+
+.login_label input{
+    display: flex;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 90%;
+    height: 50px;
+    padding: 1%;
+    margin: 5% 5%;
+}
+
+.login_icons{
+    display: flex;
+    border:  none;
+}
+
+.login_icons img{
+    aspect-ratio: 1/1;
+    padding: 5px;
+    width: 11.5%;
+    height: 1%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px black;
+    margin: 2% 5% 5% 5%;
+}
+
+.icon-facebook{
+    background: blue;
+}
+
+.icon-aple{
+    background: black;
+}
+
+.login-button{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 25% 0% 0% 40%;
+}
+
+.links{
+    margin: 1em 1em 2em 1em;
+}
+
+.walpeper{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/walpeper.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+.login-button:hover{
+    transition-duration: 1000ms;
+    background: red;
+}
